@@ -65,7 +65,7 @@
 
 ## Быстрый старт
 
-Основной <a href="https://github.com/ICEtheBreaker/rpp_aurora">репозиторий</a> - цитадель всего, что связано с проектом <a href="https://vk.com/rpp.aurora">Aurora RP</a>. 
+Основной <a href="https://github.com/Darkside-Interactive/rpp_aurora">репозиторий</a> - цитадель всего, что связано с проектом <a href="https://vk.com/rpp.aurora">Aurora RP</a>. 
 
 Вы можете свободно форкать этот репозиторий и добавлять свои улучшения.
 Если Вы желаете помочь в разработке, вы можете склонировать репозиторий и создать пулл реквест.
@@ -139,17 +139,17 @@ git@github.com:ICEtheBreaker/rpp_aurora.git
 ------------------------------------------------
 ### Пути файлов
 
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/gamemodes/new.pwn">gamemodes/new.pwn</a> - основной игровой мод;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/systems/capture_natives">defines/systems/captune_natives/natives.inc</a> - нативы и макросы;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/colors.inc">defines/colors.inc</a> - цветовые коды HTML & HEX;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/db_conn">defines/db_conn</a> - SQL-соединение;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/macroses.inc">defines/macroses.inc</a> - макросы и нативы;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/name.inc">defines/name.inc</a> - название сервера, имя мода, имя карты, <a href="https://vk.com/rpp.aurora">группа проекта</a>;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/pawno/includes">pawno/includes</a> - все инклуды и колонтитульные файлы</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/gamemodes/new.pwn">gamemodes/new.pwn</a> - основной игровой мод;</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/defines/systems/capture_natives">defines/systems/captune_natives/natives.inc</a> - нативы и макросы;</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/defines/colors.inc">defines/colors.inc</a> - цветовые коды HTML & HEX;</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/defines/db_conn">defines/db_conn</a> - SQL-соединение;</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/defines/macroses.inc">defines/macroses.inc</a> - макросы и нативы;</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/defines/name.inc">defines/name.inc</a> - название сервера, имя мода, имя карты, <a href="https://vk.com/rpp.aurora">группа проекта</a>;</br></h3>
+   - <h3><a href="https://github.com/Darkside-Interactive/CRMPProject-Main/tree/develop/pawno/includes">pawno/includes</a> - все инклуды и колонтитульные файлы</br></h3>
 
 ------------------------------------------------
 
-# <a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/LICENSE.md">Лицензия</a>
+# <a href="https://github.com/Darkside-Interactive/rpp_aurora/blob/master/LICENSE.md">Лицензия</a>
 Все ресурсы, кроме инклудов вне директории `/defines`, находятся под ЛИЦЕНЗИЕЙ SAMP-LICENSE и являются собственностью Darkside Interactive. Использование исходного кода в целях личной выгоды, кражи, передачи третьим лицам или распространении в массы строго запрещены. 
 
 Все логотипы в `/raw` являются товарными знаками соответствующих компаний и действуют в соответствии с их условиями и лицензией.
