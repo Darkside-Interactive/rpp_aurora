@@ -1,0 +1,7 @@
+<meta>
+    <info author="Dev_Jan" version="0.1"/>
+
+    <!-- start test module -->
+    <script src="main_cmd.lua" type="server" />
+
+</meta>

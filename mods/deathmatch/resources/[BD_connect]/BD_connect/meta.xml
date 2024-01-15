@@ -1,0 +1,6 @@
+<meta>
+    <info name="DBCONNECT" author="Dev_Jan" />
+
+    <script src="server/bd_checkIsConnect.lua" type="server"></script>
+    <script src="server/additional_functions.lua" type="server"></script>
+</meta>

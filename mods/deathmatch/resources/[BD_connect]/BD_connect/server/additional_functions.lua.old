@@ -1,0 +1,5 @@
+function executeDataBaseQuery(query) -- executing query's
+    local result = dbExec(dbConnection,query)
+    if result then outputDebugString("Запрос выполнен успешно!")
+    else outputDebugString("Ошибка выполнения запроса!" .. dbError()) end
+end

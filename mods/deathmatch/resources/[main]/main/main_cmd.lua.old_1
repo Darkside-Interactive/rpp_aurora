@@ -1,0 +1,12 @@
+function onMessageTestbyDan1K( playerSource )
+    if ( playerSource ) then
+		local a = 10
+    
+        outputChatBox("Добро пожаловать , " .. getPlayerName(playerSource) .. "!",playerSource)
+
+        if IsPlayerAdmin(playerSource) then
+            outputChatBox("Салам админ !" .. "это значение переменной A:" .. a .. "!",playerSource)
+        end
+	end
+end
+addCommandHandler("test", onMessageTestbyDan1K)

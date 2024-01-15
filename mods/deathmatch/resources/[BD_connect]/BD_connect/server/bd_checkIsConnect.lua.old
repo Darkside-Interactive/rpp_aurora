@@ -1,0 +1,30 @@
+local cfgFile = fileOpen("cfg/MySQL_settings.config")
+local dbConn = nil
+
+if cfgFile then
+    local settings = fileRead(cfgFile,fileGetSize(cfgFile))
+    fileClose(cfgFile)
+
+    local config = {}
+    for k,v in string.gmatch(settings,"(%w+)=(%w+)") do config[k] = v end
+
+    print("dbConn = " ... dbConn)
+    outputDebugString("[Debug lvl]dbConn = " ... dbConn)
+
+    -- local dbConn = dbConnect("mysql","dbname="..config.database,";host="..config.host,config.user,config.pass)
+
+    if not dbConn then
+        outputDebugString("Ошибка подключения к БД: " .. dbError())
+        cancelEvent()
+    else
+        outputDebugString("Успешное подключение к БД! ")
+else
+    outputDebugString("Не удалось прочитать файл MySQL_settings.config")
+    cancelEvent()
+
+addEventHandler("onResourceStop",getResourceRootElement(getThisResource()),function()
+    if dbConn then
+        dbDisconnect(dbConn)
+        outputDebugString("Соединение с БД закрыто!")
+    end
+)
